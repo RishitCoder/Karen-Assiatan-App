@@ -94,6 +94,10 @@ class Widget:
             self.compText.set('okay')
             speak('okay')
             webbrowser.open('web.whatsapp.com')
+            
+        elif 'introduce yourself' in query:
+            self.compText.set('I am an A I made by Himansh Neel and Rishit of grade 8 G')
+            speak('I am an A I made by Himansh Neel and Rishit of grade 8 G')
 
         elif 'open youtube' in query:
             self.compText.set('okay')
